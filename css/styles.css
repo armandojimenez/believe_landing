@@ -10852,9 +10852,11 @@ html {
 
 .text-gradient {
   background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 aside,
@@ -11015,6 +11017,10 @@ section.cta:before {
 }
 .features-device-mockup .device-wrapper {
   max-width: 10rem;
+}
+
+.bi::before{
+  display: inline !important;
 }
 
 @media (min-width: 576px) {
